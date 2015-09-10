@@ -1,7 +1,0 @@
-# makefile for the game of war (h1.cpp)
-h1: h1.cpp card.cpp deck.cpp card.o deck.o
-	c++11 h1.cpp card.o deck.o
-deck.o: deck.cpp
-	c++11 -c deck.cpp -o deck.o
-card.o: card.cpp
-	c++11 -c card.cpp -o card.o
